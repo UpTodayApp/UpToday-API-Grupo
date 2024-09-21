@@ -18,6 +18,5 @@ class DatabaseSeeder extends Seeder
         \App\Models\comentario::factory(10)->create();
         \App\Models\megusta::factory(10)->create();
         \App\Models\evento::factory(10)->create();
-        \App\Models\grupo::factory(10)->create();
     }
 }
